@@ -59,7 +59,7 @@ header{
       }
     }
   }
- @media (min-width: 551px) {
+ @media (min-width: 550px) {
 
     .sp_navi{
       display: none;
@@ -184,7 +184,7 @@ header{
     background-image: url("../images/top/cover@2x.jpg");
 
   }
-  @media (min-width: 551px) {
+  @media (min-width: 550px) {
 
     text-align: left;
     height:420px;
@@ -202,7 +202,7 @@ header{
 
   padding-top:20px;
 
-  @media (min-width: 551px) {
+  @media (min-width: 550px) {
     padding-top: 30px;
   }
   // min-width: 551px
@@ -224,7 +224,7 @@ header{
       margin-top: 10px;
     }
 
-    @media (min-width: 551px) {
+    @media (min-width: 550px) {
 
       .service_title{
         @include fontsize(16);
@@ -247,7 +247,7 @@ header{
 
   background-color:$gray_blue;
 
-  @media (min-width: 551px) {
+  @media (min-width: 550px) {
 
     .container{
 
@@ -285,7 +285,7 @@ header{
   }
   // .news_lists
 
-  @media (min-width: 551px) {
+  @media (min-width: 550px) {
 
     .news_title{
       @include fontsize(22);
@@ -376,7 +376,7 @@ footer{
 
 
 
-  @media (min-width: 551px) {
+  @media (min-width: 550px) {
 
     padding-top: 30px;
 
@@ -448,6 +448,7 @@ h1{
   padding: 0;
 }
 
+
 #sub_cover {
     background-image: url("../images/news/sub_cover@2x.jpg");
     padding: 40px 0;
@@ -468,6 +469,21 @@ h1{
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
+}
+@media (min-width: 550px){
+.container {
+    width: 80%;
+}
+}
+@media (min-width: 400px){
+.container {
+    padding: 0;
+}
+}
+@media (min-width: 550px){
+#contents #main {
+    padding-right: 20px;
+}
 }
 #sub_cover h2 {
     text-align: center;
@@ -508,6 +524,19 @@ h1{
 }
 #contents #main .news_li li {
     list-style: none;
+}
+@media (min-width: 550px){
+#contents #main .news_li li {
+    list-style: none;
+    padding-bottom: 5px;
+}
+}
+@media (min-width: 550px){
+#contents #main .news_li li span {
+    display: inline-block;
+    margin-bottom: 0;
+    padding-right: 10px;
+}
 }
 @media (min-width: 550px){
 #contents {
@@ -564,6 +593,10 @@ h1{
     margin-bottom: 0px;
     padding: 10px 10px 10px 20px;
     background-size: 4px 8px;
+}
+#contents #sidebar .pc_sidemenu li a {
+    color: #339fd1;
+    text-decoration: none;
 }
 #contents #main th {
     padding-right: 20px;
